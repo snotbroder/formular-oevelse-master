@@ -1,0 +1,22 @@
+/* Dine styles her */
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+
+.end {
+  display: flex;
+  align-self: flex-end;
+}
+
+input {
+  width: 50%;
+  height: 30px;
+  font-family: system-ui, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  font-family: system-ui, sans-serif;
+}
