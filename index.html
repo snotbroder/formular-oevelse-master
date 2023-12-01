@@ -30,25 +30,22 @@
       <form name="kontakttest" netlify>
         <!-- Formular-indhold -->
         <div class="form-felt">
-          <label for="navn">Navn</label>
-          <input class="end" />
+          <label for="fnavn">Navn</label>
+          <input id="fnavn" class="end" placeholder="eks. Jens" />
           <br>
-          <label for="efternavn">Efternavn</label>
-          <input class="end" />
+          <label for="enavn">Efternavn</label>
+          <input id="enavn" class="end" placeholder="eks. Jensen" />
           <br>
           <label for="email">Email</label>
-          <input type="email" class="end" />
+          <input id="email" type="email" class="end" placeholder="din@email.dk" />
           <br>
-          <br>
+
           Jeg er <label for="stilling"><select id="stilling" name="Vælg stilling">
               <option value="underviser">underviser</option>
               <option value="studerende">studerende</option>
             </select> </label> på KEA
           <br>
-          <br>
-          <textarea name="textarea" rows="10" cols="30">
-  Her kan du skrive tekst
-  </textarea>
+          <textarea placeholder="Her kan du skrive tekst..." name="textarea"></textarea>
           <br>
 
           <button type="submit" for="submit">Send form</button>
