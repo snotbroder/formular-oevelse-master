@@ -50,4 +50,10 @@ button {
 
 button:hover {
   background-color: #5100ca65;
+  color: black;
+}
+
+button:active {
+  background-color: #5100caa8;
+  color: red;
 }
